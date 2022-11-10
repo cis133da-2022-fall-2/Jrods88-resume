@@ -23,11 +23,13 @@ h3 {
 }
 
 html {
-  background-color: tan;
+  background-color: silver;
 }
 
 #themeat {
-  grid: ;
+  display: flex;
+  text-align: justify;
+  justify-content: space-between;
 }
 
 #contactinfo ul li {
@@ -38,4 +40,19 @@ html {
 #contactinfo div {
   display: flex;
   justify-content: center;
+}
+
+#columnleft {
+  margin-right: 1rem;
+}
+
+#columnright {
+  border-left: 2px dashed;
+  border-color: gray;
+  border-image-slice: 1;
+  padding-left: 1rem;
+}
+
+#Skills h2 {
+  text-align: center;
 }
